@@ -1,0 +1,55 @@
+/*styles for home content only*/
+
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+md-card {
+    max-width: 80%;
+    margin: 2em auto;
+}
+
+md-toolbar-row {
+    justify-content: space-between;
+}
+
+#home {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#daphne {
+    margin-top: 5%;
+}
+
+.content {
+    display: flex;
+}
+
+button.list-button {
+    width: 70vh;
+    background-size: cover;
+    margin: 0 auto;
+    background-color: transparent;
+    height: 50vh;
+    position: relative;
+}
+
+button.list-button span.button-inner {
+    font-family: Anton, sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px black;
+    color: white;
+    width: 100%;
+}
+
+button.list-button.cards {
+    background-image: url("../../assets/img/spaceShip.jpg");
+}
+
+button.list-button.decks {
+    background-image: url("../../assets/img/angar.jpg");
+}
